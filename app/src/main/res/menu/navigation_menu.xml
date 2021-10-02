@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/menu_home"/>
+
+    <item android:id="@+id/menuNotifications"
+        android:icon="@drawable/ic_menu_notifications"
+        android:title="@string/menu_notifications"/>
+
+    <item android:id="@+id/menuBible"
+        android:icon="@drawable/ic_menu_bible"
+        android:title="@string/menu_bible"/>
+
+    <item android:id="@+id/menuBlog"
+        android:icon="@drawable/ic_menu_blog"
+        android:title="@string/menu_blog"/>
+
+    <item android:id="@+id/menuMedia"
+        android:icon="@drawable/ic_menu_video"
+        android:title="@string/menu_media"/>
+
+    <item android:id="@+id/menuCalender"
+        android:icon="@drawable/ic_menu_calender"
+        android:title="@string/menu_calender"/>
+
+    <item android:title="@string/sub_menu_other">
+
+        <menu>
+
+            <item android:id="@+id/subMenuSettings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/menu_settings"/>
+
+            <item android:id="@+id/subMenuAbout"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_about"/>
+
+        </menu>
+
+    </item>
+
+</menu>
