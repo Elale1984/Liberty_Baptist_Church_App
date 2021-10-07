@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuHome">
 
+    <fragment
+        android:id="@+id/subMenuAbout"
+        android:name="us.libertybaptist.libertybaptistchurchapp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/menuBible"
+        android:name="us.libertybaptist.libertybaptistchurchapp.BibleFragment"
+        android:label="Bible"
+        tools:layout="@layout/fragment_bible" />
+    <fragment
+        android:id="@+id/menuBlog"
+        android:name="us.libertybaptist.libertybaptistchurchapp.BlogFragment"
+        android:label="Blog"
+        tools:layout="@layout/fragment_blog" />
+    <fragment
+        android:id="@+id/menuCalender"
+        android:name="us.libertybaptist.libertybaptistchurchapp.CalenderFragment"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="us.libertybaptist.libertybaptistchurchapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuMedia"
+        android:name="us.libertybaptist.libertybaptistchurchapp.MediaFragment"
+        android:label="Media"
+        tools:layout="@layout/fragment_media" />
+    <fragment
+        android:id="@+id/menuNotifications"
+        android:name="us.libertybaptist.libertybaptistchurchapp.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/subMenuSettings"
+        android:name="us.libertybaptist.libertybaptistchurchapp.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

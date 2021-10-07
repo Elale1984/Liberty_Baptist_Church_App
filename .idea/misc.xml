@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_bible.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_calender.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_media.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/layout_navigation_header.xml" value="0.2" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
       </map>
