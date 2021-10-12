@@ -1,16 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".CalenderFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu_calender"
-        android:layout_gravity="center"
-        android:textSize="20sp"/>
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/btn_PrevMonth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="<-"
+            android:textColor="@color/colorGreen"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="previousMonthAction"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="October 2021"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:id="@+id/tv_monthYear"/>
+
+        <Button
+            android:id="@+id/btn_NextMonth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="->"
+            android:textColor="@color/colorGreen"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="nextMonthAction"/>
 
 
-</FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SUN"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MON"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TUE"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WED"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THR"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FRI"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAT"
+            android:textColor="@color/colorGrey"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Calender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
