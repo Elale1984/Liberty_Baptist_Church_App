@@ -18,5 +18,12 @@
     <string name="nextMonth"><![CDATA[->]]></string>
     <string name="prevMonth"><![CDATA[<-]]></string>
 
+    //Calender strings
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="add_event">Add Event</string>
+    <string name="remove_all_events">Remove All Events</string>
+    <string name="view_events">View Events</string>
+    <string name="september_11_2000">September 11 2000</string>
 
 </resources>
