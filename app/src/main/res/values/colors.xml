@@ -17,6 +17,8 @@
 
     <color name="colorGrey">#535152</color>
 
+    // colors for events item view
+    <color name="colorDarkGrey">#424141</color>
 
 
 </resources>

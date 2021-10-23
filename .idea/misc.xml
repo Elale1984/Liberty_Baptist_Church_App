@@ -9,6 +9,7 @@
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_my_calender.xml" value="0.25052083333333336" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_test.xml" value="0.13020833333333334" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/calender_cell.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/calender_item_vierw.xml" value="0.25416666666666665" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/date_event_controls.xml" value="0.25416666666666665" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/event_cell.xml" value="0.13020833333333334" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
@@ -22,6 +23,7 @@
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_second.xml" value="0.13020833333333334" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/layout_events_view_item.xml" value="0.25416666666666665" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/layout_navigation_header.xml" value="0.2" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
       </map>
