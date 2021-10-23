@@ -15,4 +15,12 @@
         <item name="android:textColorPrimary">@color/black</item>
 
     </style>
+    <style name="Theme.LibertyBaptistChurchApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LibertyBaptistChurchApp.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.LibertyBaptistChurchApp.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
 </resources>

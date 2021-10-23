@@ -23,7 +23,7 @@
     <fragment
         android:id="@+id/menuCalender"
         android:name="us.libertybaptist.libertybaptistchurchapp.CalenderFragment"
-        android:label="Calender"
+        android:label="Events"
         tools:layout="@layout/fragment_calender" />
     <fragment
         android:id="@+id/menuHome"
