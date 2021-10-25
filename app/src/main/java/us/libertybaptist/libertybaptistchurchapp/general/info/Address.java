@@ -1,9 +1,13 @@
-package us.libertybaptist.libertybaptistchurchapp.calender_event;
+package us.libertybaptist.libertybaptistchurchapp.general.info;
 
-import androidx.annotation.NonNull;
+/*
+ * This class defines the information that will make up addresses for general purposes. The Address
+ * class is used in a few different places in the app.
+ */
 
-public class EventLocation {
+public class Address {
 
+    // Class Variables for Address Class
     private String locationName;
     private String address;
     private String aptOrSuitNum;
@@ -12,7 +16,8 @@ public class EventLocation {
     private String state;
     private String zip;
 
-    public EventLocation(String locationName, String address, String aptOrSuitNum, String city, String county, String state, String zip) {
+    // Constructor
+    public Address(String locationName, String address, String aptOrSuitNum, String city, String county, String state, String zip) {
         this.locationName = locationName;
         this.address = address;
         this.aptOrSuitNum = aptOrSuitNum;
@@ -22,10 +27,10 @@ public class EventLocation {
         this.zip = zip;
     }
 
+    // Default Constructor
+    public Address(){ }
 
-    public EventLocation(){ }
-
-
+    // Getters and Setters
     public String getLocationName() {
         return locationName;
     }
@@ -82,9 +87,11 @@ public class EventLocation {
         this.address = address;
     }
 
+    // Overridden toString method for the Address Class
+
     @Override
     public String toString() {
-        return "EventLocation{" +
+        return "Address{" +
                 "locationName='" + locationName + '\'' +
                 ", address='" + address + '\'' +
                 ", aptOrSuitNum='" + aptOrSuitNum + '\'' +
