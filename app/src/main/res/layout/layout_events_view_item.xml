@@ -4,8 +4,8 @@
     android:layout_height="wrap_content"
     android:id="@+id/view_EventItem"
     android:paddingTop="10dp"
-    android:paddingBottom="10dp">
-
+    android:paddingBottom="10dp"
+    android:background="@drawable/rounded_corner_view">
     <TextView
         android:id="@+id/tv_EventItemDate"
         android:layout_width="wrap_content"
@@ -64,11 +64,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_EventItemDate"
-        android:layout_toEndOf="@+id/tv_EndTimeLabel"
-        android:textSize="16sp"
-        android:layout_marginTop="5dp"
-        android:text="10:30 pm"
         android:layout_marginStart="5dp"
-        android:textStyle="italic"/>
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tv_EndTimeLabel"
+        android:text="10:30 pm"
+        android:textSize="16sp"
+        android:textStyle="italic" />
 
 </RelativeLayout>

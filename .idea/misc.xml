@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/drawable/rounded_corner_view.xml" value="0.2703125" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_calender_week_view.xml" value="0.13020833333333334" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_event_editor.xml" value="0.13020833333333334" />
         <entry key="..\:/LibertyBaptistChurchApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
