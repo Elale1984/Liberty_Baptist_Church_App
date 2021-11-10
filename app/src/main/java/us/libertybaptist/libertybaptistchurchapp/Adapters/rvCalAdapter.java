@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+//Adapter for the Calender Events Recycler View
+
 public class rvCalAdapter extends RecyclerView.Adapter {
 
     @NonNull
