@@ -1,9 +1,10 @@
 package us.libertybaptist.libertybaptistchurchapp.calender_event;
 
+import android.location.Address;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import us.libertybaptist.libertybaptistchurchapp.general.info.Address;
 /*
  * This class defines Calender Events. It includes all of the information that is needed for any
  * specific event.
@@ -16,16 +17,14 @@ public class CalenderEvent {
     private LocalTime eventStartTime;
     private LocalTime eventEndTime;
     private String eventDescription;
-    private Address Location;
 
     // Calender Event constructor
-    public CalenderEvent(String eventName, LocalDate eventDate, LocalTime eventStartTime, LocalTime eventEndTime, String eventDescription, Address location) {
+    public CalenderEvent(String eventName, LocalDate eventDate, LocalTime eventStartTime, LocalTime eventEndTime, String eventDescription) {
         this.eventName = eventName;
         this.eventDate = eventDate;
         this.eventStartTime = eventStartTime;
         this.eventEndTime = eventEndTime;
         this.eventDescription = eventDescription;
-        Location = location;
     }
 
     // Default constructor
@@ -72,13 +71,6 @@ public class CalenderEvent {
         this.eventDescription = eventDescription;
     }
 
-    public Address getLocation() {
-        return Location;
-    }
-
-    public void setLocation(Address location) {
-        Location = location;
-    }
 
     //Overridden toString method
     @Override
@@ -89,7 +81,6 @@ public class CalenderEvent {
                 ", eventStartTime=" + eventStartTime +
                 ", eventEndTime=" + eventEndTime +
                 ", eventDescription='" + eventDescription + '\'' +
-                ", Location=" + Location +
                 '}';
     }
 }
