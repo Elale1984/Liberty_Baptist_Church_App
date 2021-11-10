@@ -16,15 +16,13 @@ public class CalenderEvent {
     private LocalDate eventDate;
     private LocalTime eventStartTime;
     private LocalTime eventEndTime;
-    private String eventDescription;
 
     // Calender Event constructor
-    public CalenderEvent(String eventName, LocalDate eventDate, LocalTime eventStartTime, LocalTime eventEndTime, String eventDescription) {
+    public CalenderEvent(String eventName, LocalDate eventDate, LocalTime eventStartTime, LocalTime eventEndTime) {
         this.eventName = eventName;
         this.eventDate = eventDate;
         this.eventStartTime = eventStartTime;
         this.eventEndTime = eventEndTime;
-        this.eventDescription = eventDescription;
     }
 
     // Default constructor
@@ -63,13 +61,8 @@ public class CalenderEvent {
         this.eventEndTime = eventEndTime;
     }
 
-    public String getEventDescription() {
-        return eventDescription;
-    }
 
-    public void setEventDescription(String eventDescription) {
-        this.eventDescription = eventDescription;
-    }
+
 
 
     //Overridden toString method
@@ -80,7 +73,6 @@ public class CalenderEvent {
                 ", eventDate=" + eventDate +
                 ", eventStartTime=" + eventStartTime +
                 ", eventEndTime=" + eventEndTime +
-                ", eventDescription='" + eventDescription + '\'' +
                 '}';
     }
 }
