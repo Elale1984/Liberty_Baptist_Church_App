@@ -35,18 +35,7 @@
         android:layout_marginStart="30dp"
         android:textStyle="italic"
         android:layout_marginTop="5dp"/>
-    <TextView
-        android:id="@+id/tv_EventItemStartTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_EventItemDate"
-        android:layout_toEndOf="@+id/tv_StartTimeLabel"
-        android:textSize="16sp"
-        android:layout_marginTop="5dp"
-        android:text="8:30 pm"
-        android:layout_marginStart="5dp"
-        android:textStyle="italic"
-        />
+
     <TextView
         android:id="@+id/tv_EndTimeLabel"
         android:layout_width="wrap_content"
@@ -58,6 +47,18 @@
         android:text="@string/end"
         android:layout_marginStart="15dp"
         android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tv_EventItemStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_EventItemDate"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tv_StartTimeLabel"
+        android:text="8:30 pm"
+        android:textSize="16sp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/tv_EventItemEndTime"

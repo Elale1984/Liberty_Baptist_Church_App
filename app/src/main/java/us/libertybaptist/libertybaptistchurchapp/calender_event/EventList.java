@@ -25,4 +25,7 @@ public class EventList {
     public void setEventList(List<CalenderEvent> eventList) {
         this.eventList = eventList;
     }
+
+
+
 }
