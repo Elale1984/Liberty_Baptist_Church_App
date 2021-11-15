@@ -29,10 +29,10 @@ public class rvCalAdapter extends RecyclerView.Adapter<rvCalAdapter.CalViewHolde
     public class CalViewHolder extends RecyclerView.ViewHolder {
 
 
-        private TextView tvEventName;
-        private TextView tvEventDate;
-        private TextView tvEventStartTime;
-        private TextView tvEventEndTime;
+        private final TextView tvEventName;
+        private final TextView tvEventDate;
+        private final TextView tvEventStartTime;
+        private final TextView tvEventEndTime;
 
 
 
@@ -64,16 +64,16 @@ public class rvCalAdapter extends RecyclerView.Adapter<rvCalAdapter.CalViewHolde
 
     @Override
     public void onBindViewHolder(@NonNull rvCalAdapter.CalViewHolder holder, int position) {
-        CalenderEvent eventList = eventLists.get(position);
+        CalenderEvent event = eventLists.get(position);
 
         TextView tvEventName = holder.tvEventName;
-        tvEventName.setText(eventList.getEventName());
+        tvEventName.setText(event.getEventName());
         TextView tvEventDate = holder.tvEventDate;
-        tvEventDate.setText(eventList.getEventDate());
+        tvEventDate.setText(event.getEventDate());
         TextView tvEventStartTime = holder.tvEventStartTime;
-        tvEventStartTime.setText(eventList.getEventStartTime());
+        tvEventStartTime.setText(event.getEventStartTime());
         TextView tvEventEndTime = holder.tvEventEndTime;
-        tvEventDate.setText(eventList.getEventEndTime());
+        tvEventEndTime.setText(event.getEventEndTime());
     }
 
 
