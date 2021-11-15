@@ -63,7 +63,7 @@ public class CalenderEvent {
         ArrayList<CalenderEvent> events = new ArrayList<CalenderEvent>();
 
         for (int i = 1; i <= numEvents; i++) {
-            events.add(new CalenderEvent("event", "date", "start", "end"));
+            events.add(new CalenderEvent("Event Name", "date", "start", "end"));
         }
 
         return events;

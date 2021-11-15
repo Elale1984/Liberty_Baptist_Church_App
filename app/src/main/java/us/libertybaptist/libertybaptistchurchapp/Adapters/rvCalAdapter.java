@@ -67,9 +67,13 @@ public class rvCalAdapter extends RecyclerView.Adapter<rvCalAdapter.CalViewHolde
         CalenderEvent eventList = eventLists.get(position);
 
         TextView tvEventName = holder.tvEventName;
+        tvEventName.setText(eventList.getEventName());
         TextView tvEventDate = holder.tvEventDate;
+        tvEventDate.setText(eventList.getEventDate());
         TextView tvEventStartTime = holder.tvEventStartTime;
+        tvEventStartTime.setText(eventList.getEventStartTime());
         TextView tvEventEndTime = holder.tvEventEndTime;
+        tvEventDate.setText(eventList.getEventEndTime());
     }
 
 

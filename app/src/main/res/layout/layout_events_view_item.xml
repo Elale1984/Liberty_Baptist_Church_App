@@ -6,25 +6,27 @@
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
     android:background="@drawable/rounded_corner_view">
+
     <TextView
         android:id="@+id/tv_EventItemDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="August 12, 1984"
-        android:textSize="16sp"
-        android:textStyle="bold"
         android:textColor="@color/purple_500"
-        android:layout_marginStart="10dp"/>
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tv_EventItemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:layout_toEndOf="@+id/tv_EventItemDate"
         android:text="Go To Church"
         android:textColor="@color/colorDarkGrey"
-        android:textStyle="bold"
-        android:layout_marginStart="15dp"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/tv_StartTimeLabel"
         android:layout_width="wrap_content"
