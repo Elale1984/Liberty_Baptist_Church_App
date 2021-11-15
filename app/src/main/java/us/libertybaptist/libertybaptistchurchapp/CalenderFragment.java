@@ -12,13 +12,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 import us.libertybaptist.libertybaptistchurchapp.Adapters.rvCalAdapter;
 import us.libertybaptist.libertybaptistchurchapp.calender_event.CalenderEvent;
-import us.libertybaptist.libertybaptistchurchapp.calender_event.EventList;
 
 
 public class CalenderFragment extends Fragment {
@@ -42,9 +39,7 @@ public class CalenderFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        List<CalenderEvent> myEventLists = new ArrayList<>();
-
-        RecyclerView rvCalenderEvents = (RecyclerView) requireView().findViewById(R.id.rv_CalenderEvents);
+        RecyclerView rvCalenderEvents = requireView().findViewById(R.id.rv_CalenderEvents);
 
         eventList = CalenderEvent.createContactsList(50);
 
